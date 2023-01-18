@@ -1,0 +1,14 @@
+micronaut:
+  application:
+    name: drawGame
+datasources:
+  default:
+    ocid: ''
+    walletPassword: ''
+    schema-generate: CREATE_DROP
+    dialect: ORACLE
+oci.config.profile: DEFAULT
+netty:
+  default:
+    allocator:
+      max-order: 3
